@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zara Store</title>
+</head>
+
+<body style="text-align: center; background-color:plum;" text="black">
+    <header>
+    <div>
+    <h1>Zara Store</h1>
+    <p>Fashion Style Woman</p>
+    <img style="border-radius: 30%;" src="c:\Users\user\Downloads\WhatsApp Image 2023-10-03 at 19.44.47.jpeg" alt="Logo Toko" width="150">
+    <hr/>
+    </div>
+    </header>
+
+    <div style="text-align: left;">
+       <h2>Hoodie</h2>
+       <img src="c:\Users\user\Downloads\WhatsApp Image 2023-10-03 at 19.50.30.jpeg" alt="Foto Hoodie" width="100">
+       <p>Deskripsi Produk</p>
+       <p>Menggunakan kain sweat berbahan katun berlapis flace yang ringan</p>
+       <p>Pesan VIa: <a href="https://s.lazada.co.id/s.mAQcN">Lazada</a>
+       </div>
+
+        <div>
+    <table  style="background-color: rgba(231, 193, 110, 0.795);" style="align-items: left;" border="auto">
+        <tr>
+            <th>Warna</th>
+            <td>Ukuran</td>
+            <td>Harga</td>
+        </tr>
+
+        <tr>
+            <th>Coksu</th>
+            <th>M</th>
+            <td>Rp45.200</td>
+        </tr>
+
+        <tr>
+            <th>Coksu</th>
+            <th>L</th>
+            <td>Rp48.300</td>
+        </tr>
+
+        <tr>
+            <th>Coksu</th>
+            <th>XL</th>
+            <td>Rp52.100</td>
+        </tr>
+
+        <tr>
+            <th>Coksu</th>
+            <th>XXL</th>
+            <td>Rp56.000</td>
+        </tr>
+
+        <tr>
+            <th>Hitam</th>
+            <th>M</th>
+            <td>Rp46.200</td>
+        </tr>
+
+        <tr>
+            <th>Hitam</th>
+            <th>L</th>
+            <td>Rp48.300</td>
+        </tr>
+
+        <tr>
+            <th>Hitam</th>
+            <th>XL</th>
+            <td>Rp52.100</td>
+            </tr>
+
+            <tr>
+                <th>Hitam</th>
+                <th>XLL</th>
+                <td>Rp55.000</td>
+            </tr>
+    </table>
+    </div>
+
+    <div style="text-align: left;">
+        <h3>Sepatu Wanita</h3>
+        <img src="c:\Users\user\Downloads\WhatsApp Image 2023-10-03 at 20.32.50.jpeg" alt="Foto Sepatu" width="100">
+        <p>Deskripsi Produk</p>
+        <p>Detail bahan produk:
+            Sangat cocok untuk beraktifitas sehari, Jahitan tebal, Slim dan fit, Sangat nyaman dipakai, Anti slip dan anti licin
+        <p>Free:
+            - Box
+            - Original 100%
+        </p>
+        
+            Size Chart : 
+            
+            Size 36,37,38,39,40</p>
+        <p>Pesan Via: <a href="https://s.lazada.co.id/s.mAOXH">Lazada</a>
+        </div>
+ 
+         <div>
+     <table style="background-color: rgba(231, 193, 110, 0.795);" style="align-items: left;" border="1">
+        <tr>
+            <th>Warna</th>
+            <td>Harga</td>
+        </tr>
+
+        <tr>
+            <th>Coklat</th>
+            <td>Rp60.000</td>
+        </tr>
+
+        <tr>
+            <th>Putih</th>
+            <td>Rp60.000</td>
+        </tr>
+
+        <tr>
+            <th>Hitam</th>
+            <td>Rp60.000</td>
+        </tr>
+
+     </table>
+     </div>
+
+</body>
+</html>
