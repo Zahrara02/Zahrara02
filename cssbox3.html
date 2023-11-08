@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS BOX 3</title>
+    <style>
+      .container {
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+      }
+
+      .row1 {
+         display: flex;
+         gap: 10px;
+      }
+
+      .row1-plum {
+         flex-grow: 1;
+         height: 100px;
+         width: 120px;
+         background-color: plum
+      }
+
+      .row1-whitesmoke {
+         flex-grow: 3;
+         height: 100px;
+         width: 250px;
+         background-color: whitesmoke;
+      }
+
+      .row2 {
+         display: flex;
+         gap: 10px;
+      } 
+
+      .row2-rosybrown {
+         flex-grow: 1;
+         height: 350px;
+         width: 3px;
+         background-color: rosybrown;
+      }
+
+      .row2-gray {
+         flex-grow: 3;
+         height: 350px;
+         width: 400px;
+         background-color: gray;
+      }
+
+      .row2-bisque {
+         flex-grow: 3;
+         height: 350px;
+         width: 100px;
+         background-color: bisque;
+      }
+
+      .row3 {
+         display: flex;
+      }
+
+      .row3-pink {
+         flex-grow: 1;
+         height: 120px;
+         width: 400px;
+         background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row1">
+        <div class="row1-plum">Box plum</div>
+        <div class="row1-whitesmoke">Box whitesmoke</div>
+    </div>
+    <div class="row2">
+        <div class="row2-rosybrown">Box rosybrown</div>
+        <div class="row2-gray">Box gray</div>
+        <div class="row2-bisque">Box bisque</div>
+    </div>
+    <div class="row3">
+        <div class="row3-pink">Box row3-pink</div>
+    </div>
+  </body>
+</html>
