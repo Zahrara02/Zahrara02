@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 2</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+     body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+    main {
+        display: flex;
+        height: 70vh;
+    }
+    .container {
+        display: flex;
+    }
+
+    nav {
+    background-color: palevioletred;
+    width: 20vw;
+    height: 100vh;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: 20vh;
+        background-color: peachpuff;
+    }
+
+    article{
+        flex: 4;
+        background-color: powderblue;
+    }
+
+    aside{
+        flex: 2;
+        background-color: rgb(240, 146, 240);
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: palevioletred;
+        width: 80vw;
+        height: 10vh;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+    <div class="left">
+         <nav><h2>Nav</h2>
+        </nav>
+    </div>
+    <div class="content">
+         <header><h2>Header</h2>
+        </header>
+    <main>
+        <article class="article"><h2>Article</h2>
+        </article>
+        <aside class="aside"><h2>Aside</h2>
+        </aside>
+    </main>
+        <footer><h2>Footer</h2>
+        </footer>
+    </div>
+    </div>
+</body>
+</html>
