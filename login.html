@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eRuang - Nurul Fikri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsif.css" />
+    <script src="js/test.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/nf-removebg.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #fe7a36">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/nf-removebg.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-center" />
+          <h5 class="text-light navbar-item mt-2 ms-2">eRuang - Nurul Fikri</h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto" style="font-size: larger; font-weight: 450">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fasilitas.html">Fasilitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="booking.html">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="berita.html">Berita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <div class="global-container">
+      <div class="card login-form bg-transparent">
+        <div class="card-body-log">
+          <h1 class="card-title text-center">L O G I N</h1>
+        </div>
+        <div class="card-text">
+          <form id="loginForm" onsubmit="validateForm(); return false;">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username" aria-describedby="emailHelp" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <label class="form-check-label" for="exampleCheck1">Remember me?</label>
+            </div>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-light pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" style="text-align: justify">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light">eRuang - Nurul Fikri</h5>
+            <p>eRuang - Nurul Fikri merupakan salah satu Website Booking Ruangan secara Online Terbaik dan Terpercaya, dengan menyediakan fasilitas yang memadai sehingga dapat membuat para Client Nyaman dan Betah di Ruangan tersebut.</p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" style="text-align: justify">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Navigasi</h5>
+            <p><a href="index.html" class="nav-lin" style="text-decoration: none">Home</a></p>
+            <p><a href="fasilitas.html" class="nav-lin" style="text-decoration: none">Fasilitas</a></p>
+            <p><a href="berita.html" class="nav-lin" style="text-decoration: none">Berita</a></p>
+            <p><a href="tentang.html" class="nav-lin" style="text-decoration: none">Tentang Kami</a></p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" style="text-align: justify">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Fasilitas</h5>
+            <p><a href="meeting.html" class="nav-lin" style="text-decoration: none">Ruang Meeting</a></p>
+            <p><a href="auditorium.html" class="nav-lin" style="text-decoration: none">Aula Auditorium</a></p>
+            <p><a href="labkom.html" class="nav-lin" style="text-decoration: none">Laboratorium Komputer</a></p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" style="text-align: justify">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Contact Us</h5>
+            <p><i class="fas fa-home me-3"></i>Jalan Lenteng Agung Raya No.20 RT.5/RW.1 Srengseng Sawah</p>
+            <p><i class="fas fa-envelope me-3"></i>sttnurulfikri@gmail.com</p>
+            <p><i class="fas fa-phone me-3"></i>+62-8576-3212</p>
+            <p><i class="fas fa-print me-3"></i>+62-8576-3212</p>
+          </div>
+        </div>
+        <div class="row" style="background-color: #fe7a36">
+          <div class="col-md-7 col-lg-12 pt-2">
+            <p>
+              Copyright @2024 All right reversed by:
+              <a href="" style="text-decoration: none"> <strong class="text-light">Team 3 STT Nurul Fikri</strong></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
